@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-FLSutie">
+              <span class="suite-name border-passed">FLSutie</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-FLSutie">
+                    <span>D:\Lynn\workspace\ApiAutoTest_0228\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-FLSutie">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-FLSutie">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-FLSutie">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-FLSutie">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-FLSutie">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-FLSutie">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FLSutie" class="hide-methods passed suite-FLSutie"> (hide)</a> <!-- hide-methods passed suite-FLSutie -->
+                      <a href="#" panel-name="suite-FLSutie" class="show-methods passed suite-FLSutie"> (show)</a> <!-- show-methods passed suite-FLSutie -->
+                    </span>
+                    <div class="method-list-content passed suite-FLSutie">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.RechargeCase" hash-for-method="test(login_001, 2, {&quot;mobilephone&quot;:&quot;18924251771&quot;,&quot;pwd&quot;:&quot;abc12345&quot;}, {&quot;status&quot;:&quot;1&quot;,&quot;code&quot;:&quot;10001&quot;,&quot;message&quot;...)">test(login_001, 2, {"mobilephone":"18924251771","pwd":"abc12345"}, {"status":"1","code":"10001","message"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.RechargeCase" hash-for-method="test(login_002, 2, {&quot;mobilephone&quot;:&quot;18924251771&quot;,&quot;pwd&quot;:&quot;abcabcabc&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20111&quot;,&quot;message...)">test(login_002, 2, {"mobilephone":"18924251771","pwd":"abcabcabc"}, {"status":"0","code":"20111","message...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.RechargeCase" hash-for-method="test(login_004, 2, {&quot;mobilephone&quot;:&quot;18924251112&quot;,&quot;pwd&quot;:&quot;&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20103&quot;,&quot;message&quot;:&quot;参数不正常或...)">test(login_004, 2, {"mobilephone":"18924251112","pwd":""}, {"status":"0","code":"20103","message":"参数不正常或...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.RechargeCase" hash-for-method="test(login_003, 2, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;abc1234567&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20103&quot;,&quot;message&quot;:&quot;参数不正常或不...)">test(login_003, 2, {"mobilephone":"","pwd":"abc1234567"}, {"status":"0","code":"20103","message":"参数不正常或不...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.RegisterCase" hash-for-method="test(recharge_003, 3, {&quot;mobilephone&quot;:&quot;18924251731&quot;,&quot;amount&quot;:&quot;500000.11&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20117&quot;,&quot;m...)">test(recharge_003, 3, {"mobilephone":"18924251731","amount":"500000.11"}, {"status":"0","code":"20117","m...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.RegisterCase" hash-for-method="test(recharge_004, 3, {&quot;mobilephone&quot;:&quot;18924251741&quot;,&quot;amount&quot;:&quot;-8000&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20117&quot;,&quot;messa...)">test(recharge_004, 3, {"mobilephone":"18924251741","amount":"-8000"}, {"status":"0","code":"20117","messa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.RegisterCase" hash-for-method="test(recharge_001, 3, {&quot;mobilephone&quot;:&quot;18924251711&quot;,&quot;amount&quot;:&quot;10000&quot;}, {&quot;status&quot;:&quot;1&quot;,&quot;code&quot;:&quot;10001&quot;,&quot;messa...)">test(recharge_001, 3, {"mobilephone":"18924251711","amount":"10000"}, {"status":"1","code":"10001","messa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.RegisterCase" hash-for-method="test(recharge_010, 3, {&quot;mobilephone&quot;:&quot;18924251113&quot;,&quot;amount&quot;:&quot;500000&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20104&quot;,&quot;mess...)">test(recharge_010, 3, {"mobilephone":"18924251113","amount":"500000"}, {"status":"0","code":"20104","mess...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.RegisterCase" hash-for-method="test(recharge_005, 3, {&quot;mobilephone&quot;:&quot;18924251751&quot;,&quot;amount&quot;:&quot;&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20115&quot;,&quot;message&quot;:&quot;...)">test(recharge_005, 3, {"mobilephone":"18924251751","amount":""}, {"status":"0","code":"20115","message":"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.RegisterCase" hash-for-method="test(recharge_006, 3, {&quot;mobilephone&quot;:&quot;18924251772&quot;,&quot;amount&quot;:&quot;abc&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20118&quot;,&quot;message...)">test(recharge_006, 3, {"mobilephone":"18924251772","amount":"abc"}, {"status":"0","code":"20118","message...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.RegisterCase" hash-for-method="test(recharge_008, 3, {&quot;mobilephone&quot;:&quot;189&quot;,&quot;amount&quot;:&quot;10000&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20109&quot;,&quot;message&quot;:&quot;手机号...)">test(recharge_008, 3, {"mobilephone":"189","amount":"10000"}, {"status":"0","code":"20109","message":"手机号...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.RegisterCase" hash-for-method="test(recharge_009, 3, {&quot;mobilephone&quot;:&quot;&quot;,&quot;amount&quot;:&quot;1&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20109&quot;,&quot;message&quot;:&quot;手机号格式不正确&quot;}...)">test(recharge_009, 3, {"mobilephone":"","amount":"1"}, {"status":"0","code":"20109","message":"手机号格式不正确"}...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.RegisterCase" hash-for-method="test(recharge_007, 3, {&quot;mobilephone&quot;:&quot;18924251773&quot;,&quot;amount&quot;:&quot;10000.111&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20116&quot;,&quot;m...)">test(recharge_007, 3, {"mobilephone":"18924251773","amount":"10000.111"}, {"status":"0","code":"20116","m...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.RegisterCase" hash-for-method="test(recharge_002, 3, {&quot;mobilephone&quot;:&quot;18924251721&quot;,&quot;amount&quot;:&quot;0&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20117&quot;,&quot;message&quot;:...)">test(recharge_002, 3, {"mobilephone":"18924251721","amount":"0"}, {"status":"0","code":"20117","message":...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.LoginCase" hash-for-method="test(register_003, 1, {&quot;mobilephone&quot;:&quot;1892425&quot;,&quot;pwd&quot;:&quot;abc123&quot;,&quot;regname&quot;:&quot;&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20109&quot;...)">test(register_003, 1, {"mobilephone":"1892425","pwd":"abc123","regname":""}, {"status":"0","code":"20109"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.LoginCase" hash-for-method="test(register_002, 1, {&quot;mobilephone&quot;:&quot;18924251772&quot;,&quot;pwd&quot;:&quot;abc12345&quot;,&quot;regname&quot;:&quot;&quot;}, {&quot;status&quot;:&quot;1&quot;,&quot;code&quot;:&quot;...)">test(register_002, 1, {"mobilephone":"18924251772","pwd":"abc12345","regname":""}, {"status":"1","code":"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.LoginCase" hash-for-method="test(register_005, 1, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;abcdefg...&quot;,&quot;regname&quot;:&quot;abcd&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20103...)">test(register_005, 1, {"mobilephone":"","pwd":"abcdefg...","regname":"abcd"}, {"status":"0","code":"20103...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.LoginCase" hash-for-method="test(register_001, 1, {&quot;mobilephone&quot;:&quot;${awaitRegisterMobilephone}&quot;,&quot;pwd&quot;:&quot;abc12345&quot;,&quot;regname&quot;:&quot;abc&quot;}, {&quot;s...)">test(register_001, 1, {"mobilephone":"${awaitRegisterMobilephone}","pwd":"abc12345","regname":"abc"}, {"s...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.LoginCase" hash-for-method="test(register_004, 1, {&quot;mobilephone&quot;:&quot;18924251773&quot;,&quot;pwd&quot;:&quot;abc12&quot;,&quot;regname&quot;:&quot;&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;201...)">test(register_004, 1, {"mobilephone":"18924251773","pwd":"abc12","regname":""}, {"status":"0","code":"201...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.LoginCase" hash-for-method="test(register_007, 1, {&quot;mobilephone&quot;:&quot;18924251111&quot;,&quot;pwd&quot;:&quot;1234567890&quot;,&quot;regname&quot;:&quot;xzz&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;co...)">test(register_007, 1, {"mobilephone":"18924251111","pwd":"1234567890","regname":"xzz"}, {"status":"0","co...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FLSutie" title="com.autotest.testcase.LoginCase" hash-for-method="test(register_006, 1, {&quot;mobilephone&quot;:&quot;18924251771&quot;,&quot;pwd&quot;:&quot;&quot;,&quot;regname&quot;:&quot;&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20103&quot;,&quot;...)">test(register_006, 1, {"mobilephone":"18924251771","pwd":"","regname":""}, {"status":"0","code":"20103","...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FLSutie -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FLSutie" class="panel FLSutie">
+          <div class="suite-FLSutie-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.autotest.testcase.RechargeCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(login_001, 2, {&quot;mobilephone&quot;:&quot;18924251771&quot;,&quot;pwd&quot;:&quot;abc12345&quot;}, {&quot;status&quot;:&quot;1&quot;,&quot;code&quot;:&quot;10001&quot;,&quot;message&quot;...)">
+                  </a> <!-- test(login_001, 2, {"mobilephone":"18924251771","pwd":"abc12345"}, {"status":"1","code":"10001","message"...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(login_001, 2, {"mobilephone":"18924251771","pwd":"abc12345"}, {"status":"1","code":"10001","message":"成功"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(login_002, 2, {&quot;mobilephone&quot;:&quot;18924251771&quot;,&quot;pwd&quot;:&quot;abcabcabc&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20111&quot;,&quot;message...)">
+                  </a> <!-- test(login_002, 2, {"mobilephone":"18924251771","pwd":"abcabcabc"}, {"status":"0","code":"20111","message...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(login_002, 2, {"mobilephone":"18924251771","pwd":"abcabcabc"}, {"status":"0","code":"20111","message":"用户名或者密码错误"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(login_004, 2, {&quot;mobilephone&quot;:&quot;18924251112&quot;,&quot;pwd&quot;:&quot;&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20103&quot;,&quot;message&quot;:&quot;参数不正常或...)">
+                  </a> <!-- test(login_004, 2, {"mobilephone":"18924251112","pwd":""}, {"status":"0","code":"20103","message":"参数不正常或...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(login_004, 2, {"mobilephone":"18924251112","pwd":""}, {"status":"0","code":"20103","message":"参数不正常或不能为空"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(login_003, 2, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;abc1234567&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20103&quot;,&quot;message&quot;:&quot;参数不正常或不...)">
+                  </a> <!-- test(login_003, 2, {"mobilephone":"","pwd":"abc1234567"}, {"status":"0","code":"20103","message":"参数不正常或不...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(login_003, 2, {"mobilephone":"","pwd":"abc1234567"}, {"status":"0","code":"20103","message":"参数不正常或不能为空"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FLSutie-class-passed -->
+          <div class="suite-FLSutie-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.autotest.testcase.RegisterCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(recharge_003, 3, {&quot;mobilephone&quot;:&quot;18924251731&quot;,&quot;amount&quot;:&quot;500000.11&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20117&quot;,&quot;m...)">
+                  </a> <!-- test(recharge_003, 3, {"mobilephone":"18924251731","amount":"500000.11"}, {"status":"0","code":"20117","m...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(recharge_003, 3, {"mobilephone":"18924251731","amount":"500000.11"}, {"status":"0","code":"20117","message":"请输入范围在0-50万之间的正数金额"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(recharge_004, 3, {&quot;mobilephone&quot;:&quot;18924251741&quot;,&quot;amount&quot;:&quot;-8000&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20117&quot;,&quot;messa...)">
+                  </a> <!-- test(recharge_004, 3, {"mobilephone":"18924251741","amount":"-8000"}, {"status":"0","code":"20117","messa...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(recharge_004, 3, {"mobilephone":"18924251741","amount":"-8000"}, {"status":"0","code":"20117","message":"请输入范围在0-50万之间的正数金额"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(recharge_001, 3, {&quot;mobilephone&quot;:&quot;18924251711&quot;,&quot;amount&quot;:&quot;10000&quot;}, {&quot;status&quot;:&quot;1&quot;,&quot;code&quot;:&quot;10001&quot;,&quot;messa...)">
+                  </a> <!-- test(recharge_001, 3, {"mobilephone":"18924251711","amount":"10000"}, {"status":"1","code":"10001","messa...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(recharge_001, 3, {"mobilephone":"18924251711","amount":"10000"}, {"status":"1","code":"10001","message":"成功"}, [{"no":"1","sql":"select leaveAmount from member where mobilephone='18924251771'"},
+{"no":"2","sql":"select count(*) as totalNum from financelog where IncomeMemberId=(select id from member where id='18924251771')"}], [{"no":"1","sql":"select leaveAmount from member where mobilephone='18924251771'"},
+{"no":"2","sql":"select count(*) as totalNum from financelog where IncomeMemberId=(select id from member where id='18924251771')"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(recharge_010, 3, {&quot;mobilephone&quot;:&quot;18924251113&quot;,&quot;amount&quot;:&quot;500000&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20104&quot;,&quot;mess...)">
+                  </a> <!-- test(recharge_010, 3, {"mobilephone":"18924251113","amount":"500000"}, {"status":"0","code":"20104","mess...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(recharge_010, 3, {"mobilephone":"18924251113","amount":"500000"}, {"status":"0","code":"20104","message":"该手机号尚未注册为会员"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(recharge_005, 3, {&quot;mobilephone&quot;:&quot;18924251751&quot;,&quot;amount&quot;:&quot;&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20115&quot;,&quot;message&quot;:&quot;...)">
+                  </a> <!-- test(recharge_005, 3, {"mobilephone":"18924251751","amount":""}, {"status":"0","code":"20115","message":"...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(recharge_005, 3, {"mobilephone":"18924251751","amount":""}, {"status":"0","code":"20115","message":"请输入金额"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(recharge_006, 3, {&quot;mobilephone&quot;:&quot;18924251772&quot;,&quot;amount&quot;:&quot;abc&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20118&quot;,&quot;message...)">
+                  </a> <!-- test(recharge_006, 3, {"mobilephone":"18924251772","amount":"abc"}, {"status":"0","code":"20118","message...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(recharge_006, 3, {"mobilephone":"18924251772","amount":"abc"}, {"status":"0","code":"20118","message":"请输入数字"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(recharge_008, 3, {&quot;mobilephone&quot;:&quot;189&quot;,&quot;amount&quot;:&quot;10000&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20109&quot;,&quot;message&quot;:&quot;手机号...)">
+                  </a> <!-- test(recharge_008, 3, {"mobilephone":"189","amount":"10000"}, {"status":"0","code":"20109","message":"手机号...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(recharge_008, 3, {"mobilephone":"189","amount":"10000"}, {"status":"0","code":"20109","message":"手机号格式不正确"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(recharge_009, 3, {&quot;mobilephone&quot;:&quot;&quot;,&quot;amount&quot;:&quot;1&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20109&quot;,&quot;message&quot;:&quot;手机号格式不正确&quot;}...)">
+                  </a> <!-- test(recharge_009, 3, {"mobilephone":"","amount":"1"}, {"status":"0","code":"20109","message":"手机号格式不正确"}...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(recharge_009, 3, {"mobilephone":"","amount":"1"}, {"status":"0","code":"20109","message":"手机号格式不正确"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(recharge_007, 3, {&quot;mobilephone&quot;:&quot;18924251773&quot;,&quot;amount&quot;:&quot;10000.111&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20116&quot;,&quot;m...)">
+                  </a> <!-- test(recharge_007, 3, {"mobilephone":"18924251773","amount":"10000.111"}, {"status":"0","code":"20116","m...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(recharge_007, 3, {"mobilephone":"18924251773","amount":"10000.111"}, {"status":"0","code":"20116","message":"输入金额的小数部分不能超过两位"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(recharge_002, 3, {&quot;mobilephone&quot;:&quot;18924251721&quot;,&quot;amount&quot;:&quot;0&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20117&quot;,&quot;message&quot;:...)">
+                  </a> <!-- test(recharge_002, 3, {"mobilephone":"18924251721","amount":"0"}, {"status":"0","code":"20117","message":...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(recharge_002, 3, {"mobilephone":"18924251721","amount":"0"}, {"status":"0","code":"20117","message":"请输入范围在0-50万之间的正数金额"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FLSutie-class-passed -->
+          <div class="suite-FLSutie-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.autotest.testcase.LoginCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(register_003, 1, {&quot;mobilephone&quot;:&quot;1892425&quot;,&quot;pwd&quot;:&quot;abc123&quot;,&quot;regname&quot;:&quot;&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20109&quot;...)">
+                  </a> <!-- test(register_003, 1, {"mobilephone":"1892425","pwd":"abc123","regname":""}, {"status":"0","code":"20109"...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(register_003, 1, {"mobilephone":"1892425","pwd":"abc123","regname":""}, {"status":"0","code":"20109","message":"手机号码格式不正确"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(register_002, 1, {&quot;mobilephone&quot;:&quot;18924251772&quot;,&quot;pwd&quot;:&quot;abc12345&quot;,&quot;regname&quot;:&quot;&quot;}, {&quot;status&quot;:&quot;1&quot;,&quot;code&quot;:&quot;...)">
+                  </a> <!-- test(register_002, 1, {"mobilephone":"18924251772","pwd":"abc12345","regname":""}, {"status":"1","code":"...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(register_002, 1, {"mobilephone":"18924251772","pwd":"abc12345","regname":""}, {"status":"1","code":"10001","message":"成功"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(register_005, 1, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;abcdefg...&quot;,&quot;regname&quot;:&quot;abcd&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20103...)">
+                  </a> <!-- test(register_005, 1, {"mobilephone":"","pwd":"abcdefg...","regname":"abcd"}, {"status":"0","code":"20103...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(register_005, 1, {"mobilephone":"","pwd":"abcdefg...","regname":"abcd"}, {"status":"0","code":"20103","message":"参数不正常或不能为空"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(register_001, 1, {&quot;mobilephone&quot;:&quot;${awaitRegisterMobilephone}&quot;,&quot;pwd&quot;:&quot;abc12345&quot;,&quot;regname&quot;:&quot;abc&quot;}, {&quot;s...)">
+                  </a> <!-- test(register_001, 1, {"mobilephone":"${awaitRegisterMobilephone}","pwd":"abc12345","regname":"abc"}, {"s...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(register_001, 1, {"mobilephone":"${awaitRegisterMobilephone}","pwd":"abc12345","regname":"abc"}, {"status":"1","code":"10001","message":"成功"}, [{"no":"1","sql":"select count(*) from member where mobilephone='18924251771'"}], [{"no":"1","sql":"select count(*) from member where mobilephone='18924251771'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(register_004, 1, {&quot;mobilephone&quot;:&quot;18924251773&quot;,&quot;pwd&quot;:&quot;abc12&quot;,&quot;regname&quot;:&quot;&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;201...)">
+                  </a> <!-- test(register_004, 1, {"mobilephone":"18924251773","pwd":"abc12","regname":""}, {"status":"0","code":"201...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(register_004, 1, {"mobilephone":"18924251773","pwd":"abc12","regname":""}, {"status":"0","code":"20108","message":"密码长度必须为6-18位"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(register_007, 1, {&quot;mobilephone&quot;:&quot;18924251111&quot;,&quot;pwd&quot;:&quot;1234567890&quot;,&quot;regname&quot;:&quot;xzz&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;co...)">
+                  </a> <!-- test(register_007, 1, {"mobilephone":"18924251111","pwd":"1234567890","regname":"xzz"}, {"status":"0","co...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(register_007, 1, {"mobilephone":"18924251111","pwd":"1234567890","regname":"xzz"}, {"status":"0","code":"20110","message":"手机号码已被注册"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(register_006, 1, {&quot;mobilephone&quot;:&quot;18924251771&quot;,&quot;pwd&quot;:&quot;&quot;,&quot;regname&quot;:&quot;&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20103&quot;,&quot;...)">
+                  </a> <!-- test(register_006, 1, {"mobilephone":"18924251771","pwd":"","regname":""}, {"status":"0","code":"20103","...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(register_006, 1, {"mobilephone":"18924251771","pwd":"","regname":""}, {"status":"0","code":"20103","message":"参数不正常或不能为空"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FLSutie-class-passed -->
+        </div> <!-- panel FLSutie -->
+        <div panel-name="test-xml-FLSutie" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Lynn\workspace\ApiAutoTest_0228\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;FLSutie&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.autotest.config.ExtentTestNGIReporterListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;RechargeTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.autotest.testcase.RechargeCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RechargeTest --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;RegisterTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.autotest.testcase.RegisterCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegisterTest --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;LoginTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.autotest.testcase.LoginCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginTest --&gt;
+&lt;/suite&gt; &lt;!-- FLSutie --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FLSutie" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FLSutie</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RechargeTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RegisterTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FLSutie" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FLSutie</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FLSutie" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FLSutie</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FLSutie');
+function tableData_FLSutie() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'com.autotest.testcase.RechargeCase')
+data.setCell(0, 3, 3299);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'com.autotest.testcase.RegisterCase')
+data.setCell(1, 3, 2107);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test')
+data.setCell(2, 2, 'com.autotest.testcase.LoginCase')
+data.setCell(2, 3, 2057);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test')
+data.setCell(3, 2, 'com.autotest.testcase.RegisterCase')
+data.setCell(3, 3, 2035);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test')
+data.setCell(4, 2, 'com.autotest.testcase.LoginCase')
+data.setCell(4, 3, 2032);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test')
+data.setCell(5, 2, 'com.autotest.testcase.RechargeCase')
+data.setCell(5, 3, 2031);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test')
+data.setCell(6, 2, 'com.autotest.testcase.LoginCase')
+data.setCell(6, 3, 2027);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test')
+data.setCell(7, 2, 'com.autotest.testcase.LoginCase')
+data.setCell(7, 3, 2022);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test')
+data.setCell(8, 2, 'com.autotest.testcase.RechargeCase')
+data.setCell(8, 3, 2020);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test')
+data.setCell(9, 2, 'com.autotest.testcase.RegisterCase')
+data.setCell(9, 3, 2020);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test')
+data.setCell(10, 2, 'com.autotest.testcase.RechargeCase')
+data.setCell(10, 3, 2018);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test')
+data.setCell(11, 2, 'com.autotest.testcase.RegisterCase')
+data.setCell(11, 3, 2018);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test')
+data.setCell(12, 2, 'com.autotest.testcase.LoginCase')
+data.setCell(12, 3, 2018);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test')
+data.setCell(13, 2, 'com.autotest.testcase.RegisterCase')
+data.setCell(13, 3, 2017);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test')
+data.setCell(14, 2, 'com.autotest.testcase.RegisterCase')
+data.setCell(14, 3, 2016);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test')
+data.setCell(15, 2, 'com.autotest.testcase.RegisterCase')
+data.setCell(15, 3, 2016);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test')
+data.setCell(16, 2, 'com.autotest.testcase.RegisterCase')
+data.setCell(16, 3, 2014);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test')
+data.setCell(17, 2, 'com.autotest.testcase.RegisterCase')
+data.setCell(17, 3, 2013);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test')
+data.setCell(18, 2, 'com.autotest.testcase.LoginCase')
+data.setCell(18, 3, 2013);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test')
+data.setCell(19, 2, 'com.autotest.testcase.LoginCase')
+data.setCell(19, 3, 2012);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test')
+data.setCell(20, 2, 'com.autotest.testcase.RegisterCase')
+data.setCell(20, 3, 2010);
+window.suiteTableData['FLSutie']= { tableData: data, tableDiv: 'times-div-FLSutie'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <div id="times-div-FLSutie">
+              </div> <!-- times-div-FLSutie -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FLSutie" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FLSutie</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FLSutie" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FLSutie" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autotest.testcase.RechargeCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test(login_001, 2, {"mobilephone":"18924251771","pwd":"abc12345"}, {"status":"1","code":"10001","message"...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(login_002, 2, {"mobilephone":"18924251771","pwd":"abcabcabc"}, {"status":"0","code":"20111","message...)</span>
+                <span class="method-start">3342 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(login_003, 2, {"mobilephone":"","pwd":"abc1234567"}, {"status":"0","code":"20103","message":"参数不正常或不...)</span>
+                <span class="method-start">5363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(login_004, 2, {"mobilephone":"18924251112","pwd":""}, {"status":"0","code":"20103","message":"参数不正常或...)</span>
+                <span class="method-start">7395 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autotest.testcase.RegisterCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test(recharge_001, 3, {"mobilephone":"18924251711","amount":"10000"}, {"status":"1","code":"10001","messa...)</span>
+                <span class="method-start">9459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(recharge_002, 3, {"mobilephone":"18924251721","amount":"0"}, {"status":"0","code":"20117","message":...)</span>
+                <span class="method-start">11567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(recharge_003, 3, {"mobilephone":"18924251731","amount":"500000.11"}, {"status":"0","code":"20117","m...)</span>
+                <span class="method-start">13584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(recharge_004, 3, {"mobilephone":"18924251741","amount":"-8000"}, {"status":"0","code":"20117","messa...)</span>
+                <span class="method-start">15602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(recharge_005, 3, {"mobilephone":"18924251751","amount":""}, {"status":"0","code":"20115","message":"...)</span>
+                <span class="method-start">17624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(recharge_006, 3, {"mobilephone":"18924251772","amount":"abc"}, {"status":"0","code":"20118","message...)</span>
+                <span class="method-start">19660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(recharge_007, 3, {"mobilephone":"18924251773","amount":"10000.111"}, {"status":"0","code":"20116","m...)</span>
+                <span class="method-start">21677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(recharge_008, 3, {"mobilephone":"189","amount":"10000"}, {"status":"0","code":"20109","message":"手机号...)</span>
+                <span class="method-start">23693 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(recharge_009, 3, {"mobilephone":"","amount":"1"}, {"status":"0","code":"20109","message":"手机号格式不正确"}...)</span>
+                <span class="method-start">25707 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(recharge_010, 3, {"mobilephone":"18924251113","amount":"500000"}, {"status":"0","code":"20104","mess...)</span>
+                <span class="method-start">27725 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autotest.testcase.LoginCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test(register_001, 1, {"mobilephone":"${awaitRegisterMobilephone}","pwd":"abc12345","regname":"abc"}, {"s...)</span>
+                <span class="method-start">29749 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(register_002, 1, {"mobilephone":"18924251772","pwd":"abc12345","regname":""}, {"status":"1","code":"...)</span>
+                <span class="method-start">31807 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(register_003, 1, {"mobilephone":"1892425","pwd":"abc123","regname":""}, {"status":"0","code":"20109"...)</span>
+                <span class="method-start">33829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(register_004, 1, {"mobilephone":"18924251773","pwd":"abc12","regname":""}, {"status":"0","code":"201...)</span>
+                <span class="method-start">35848 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(register_005, 1, {"mobilephone":"","pwd":"abcdefg...","regname":"abcd"}, {"status":"0","code":"20103...)</span>
+                <span class="method-start">37862 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(register_006, 1, {"mobilephone":"18924251771","pwd":"","regname":""}, {"status":"0","code":"20103","...)</span>
+                <span class="method-start">39875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(register_007, 1, {"mobilephone":"18924251111","pwd":"1234567890","regname":"xzz"}, {"status":"0","co...)</span>
+                <span class="method-start">41903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">batchWriteBackDatas</span>
+                <span class="method-start">43943 ms</span>
+              </div> <!-- configuration-suite after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeResources</span>
+                <span class="method-start">44186 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

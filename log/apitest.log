@@ -1,0 +1,161 @@
+2020-03-07 09:31:29 method: com.autotest.util.CaseUtil.<clinit>(CaseUtil.java:22) - [ INFO ]----加载用例信息
+2020-03-07 09:31:29 method: com.autotest.util.RestUtil.<clinit>(RestUtil.java:21) - [ INFO ]----加载接口信息
+2020-03-07 09:31:30 method: com.autotest.util.VariableUtil.<clinit>(VariableUtil.java:31) - [ INFO ]----加载参数化变量信息
+2020-03-07 09:31:32 method: com.autotest.util.JDBCUtil.setConnection(JDBCUtil.java:88) - [ ERROR ]----数据库连接失败com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-03-07 09:31:32 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:31:32 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:31:33 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/login】
+2020-03-07 09:31:35 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:31:35 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:31:35 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/login】
+2020-03-07 09:31:37 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:31:37 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:31:37 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/login】
+2020-03-07 09:31:39 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:31:39 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:31:39 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/login】
+2020-03-07 09:31:41 method: com.autotest.testcase.BaseCase.test(BaseCase.java:46) - [ INFO ]----接口调用前的数据验证查询
+2020-03-07 09:31:43 method: com.autotest.util.JDBCUtil.setConnection(JDBCUtil.java:88) - [ ERROR ]----数据库连接失败com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-03-07 09:31:43 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:31:43 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:31:43 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:31:45 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:31:45 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:31:45 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:31:47 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:31:47 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:31:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:31:49 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:31:49 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:31:49 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:31:51 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:31:51 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:31:51 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:31:53 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:31:53 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:31:53 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:31:55 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:31:55 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:31:55 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:31:57 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:31:57 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:31:57 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:31:59 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:31:59 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:31:59 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:32:01 method: com.autotest.testcase.BaseCase.test(BaseCase.java:46) - [ INFO ]----接口调用前的数据验证查询
+2020-03-07 09:32:03 method: com.autotest.util.JDBCUtil.setConnection(JDBCUtil.java:88) - [ ERROR ]----数据库连接失败com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-03-07 09:32:03 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:32:03 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:32:03 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/register】
+2020-03-07 09:32:05 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:32:05 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:32:05 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/register】
+2020-03-07 09:32:07 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:32:07 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:32:07 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/register】
+2020-03-07 09:32:09 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:32:09 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:32:09 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/register】
+2020-03-07 09:32:11 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:32:11 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:32:11 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/register】
+2020-03-07 09:32:13 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:32:13 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:32:13 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/register】
+2020-03-07 09:34:41 method: com.autotest.util.CaseUtil.<clinit>(CaseUtil.java:22) - [ INFO ]----加载用例信息
+2020-03-07 09:34:42 method: com.autotest.util.RestUtil.<clinit>(RestUtil.java:21) - [ INFO ]----加载接口信息
+2020-03-07 09:34:42 method: com.autotest.util.VariableUtil.<clinit>(VariableUtil.java:31) - [ INFO ]----加载参数化变量信息
+2020-03-07 09:34:44 method: com.autotest.util.JDBCUtil.setConnection(JDBCUtil.java:88) - [ ERROR ]----数据库连接失败com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-03-07 09:34:44 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:44 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:45 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/login】
+2020-03-07 09:34:45 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"1","code":"10001","message":"成功"}】
+2020-03-07 09:34:45 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:45 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:45 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/login】
+2020-03-07 09:34:45 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20111","message":"用户名或者密码错误"}】
+2020-03-07 09:34:45 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:45 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:45 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/login】
+2020-03-07 09:34:45 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20103","message":"参数不正常或不能为空"}】
+2020-03-07 09:34:45 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:45 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:45 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/login】
+2020-03-07 09:34:45 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20103","message":"参数不正常或不能为空"}】
+2020-03-07 09:34:45 method: com.autotest.testcase.BaseCase.test(BaseCase.java:46) - [ INFO ]----接口调用前的数据验证查询
+2020-03-07 09:34:47 method: com.autotest.util.JDBCUtil.setConnection(JDBCUtil.java:88) - [ ERROR ]----数据库连接失败com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-03-07 09:34:47 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20117","message":"请输入范围在0-50万之间的正数金额"}】
+2020-03-07 09:34:47 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20117","message":"请输入范围在0-50万之间的正数金额"}】
+2020-03-07 09:34:47 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20117","message":"请输入范围在0-50万之间的正数金额"}】
+2020-03-07 09:34:47 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20115","message":"请输入金额"}】
+2020-03-07 09:34:47 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20118","message":"请输入数字"}】
+2020-03-07 09:34:47 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20116","message":"输入金额的小数部分不能超过两位"}】
+2020-03-07 09:34:47 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20109","message":"手机号格式不正确"}】
+2020-03-07 09:34:47 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20109","message":"手机号格式不正确"}】
+2020-03-07 09:34:47 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/recharge】
+2020-03-07 09:34:47 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20104","message":"该手机号尚未注册为会员"}】
+2020-03-07 09:34:47 method: com.autotest.testcase.BaseCase.test(BaseCase.java:46) - [ INFO ]----接口调用前的数据验证查询
+2020-03-07 09:34:49 method: com.autotest.util.JDBCUtil.setConnection(JDBCUtil.java:88) - [ ERROR ]----数据库连接失败com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-03-07 09:34:49 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/register】
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"1","code":"10001","message":"成功"}】
+2020-03-07 09:34:49 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/register】
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20109","message":"手机号码格式不正确"}】
+2020-03-07 09:34:49 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/register】
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20108","message":"密码长度必须为6-18位"}】
+2020-03-07 09:34:49 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/register】
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20103","message":"参数不正常或不能为空"}】
+2020-03-07 09:34:49 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/register】
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20103","message":"参数不正常或不能为空"}】
+2020-03-07 09:34:49 method: com.autotest.testcase.BaseCase.test(BaseCase.java:66) - [ INFO ]----调用接口
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doRequest(HttpUtil.java:179) - [ INFO ]----接口请求方式【POST】
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:41) - [ INFO ]----接口请求url【http://localhost:8888/fl/mvc/member/register】
+2020-03-07 09:34:49 method: com.autotest.util.HttpUtil.doPost(HttpUtil.java:74) - [ INFO ]----接口响应报文：code【200】，result【{"status":"0","code":"20110","message":"手机号码已被注册"}】

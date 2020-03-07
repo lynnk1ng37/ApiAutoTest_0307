@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FLSutie" duration-ms="2851" started-at="2020-03-06T03:06:56Z" finished-at="2020-03-06T03:06:59Z">
+    <groups>
+    </groups>
+    <test name="RechargeTest" duration-ms="2325" started-at="2020-03-06T03:06:56Z" finished-at="2020-03-06T03:06:58Z">
+      <class name="com.autotest.testcase.RechargeCase">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.RechargeCase@4f9a3314]" name="test" duration-ms="1255" started-at="2020-03-06T11:06:57Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251771","pwd":"abc12345"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"1","code":"10001","message":"成功"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.RechargeCase@4f9a3314]" name="test" duration-ms="24" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login_002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251771","pwd":"abcabcabc"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20111","message":"用户名或者密码错误"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.RechargeCase@4f9a3314]" name="test" duration-ms="14" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login_003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"","pwd":"abc1234567"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20103","message":"参数不正常或不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.RechargeCase@4f9a3314]" name="test" duration-ms="27" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login_004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251112","pwd":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20103","message":"参数不正常或不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.autotest.testcase.RechargeCase -->
+    </test> <!-- RechargeTest -->
+    <test name="RegisterTest" duration-ms="312" started-at="2020-03-06T03:06:58Z" finished-at="2020-03-06T03:06:58Z">
+      <class name="com.autotest.testcase.RegisterCase">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.RegisterCase@6ee12bac]" name="test" duration-ms="135" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[recharge_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251711","amount":"10000"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"1","code":"10001","message":"成功"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select leaveAmount from member where mobilephone='18924251771'"},
+{"no":"2","sql":"select count(*) as totalNum from financelog where IncomeMemberId=(select id from member where id='18924251771')"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select leaveAmount from member where mobilephone='18924251771'"},
+{"no":"2","sql":"select count(*) as totalNum from financelog where IncomeMemberId=(select id from member where id='18924251771')"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.RegisterCase@6ee12bac]" name="test" duration-ms="19" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[recharge_002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251721","amount":"0"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20117","message":"请输入范围在0-50万之间的正数金额"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.RegisterCase@6ee12bac]" name="test" duration-ms="33" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[recharge_003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251731","amount":"500000.11"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20117","message":"请输入范围在0-50万之间的正数金额"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.RegisterCase@6ee12bac]" name="test" duration-ms="18" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[recharge_004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251741","amount":"-8000"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20117","message":"请输入范围在0-50万之间的正数金额"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.RegisterCase@6ee12bac]" name="test" duration-ms="14" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[recharge_005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251751","amount":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20115","message":"请输入金额"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.RegisterCase@6ee12bac]" name="test" duration-ms="17" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[recharge_006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251772","amount":"abc"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20118","message":"请输入数字"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.RegisterCase@6ee12bac]" name="test" duration-ms="13" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[recharge_007]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251773","amount":"10000.111"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20116","message":"输入金额的小数部分不能超过两位"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.RegisterCase@6ee12bac]" name="test" duration-ms="16" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[recharge_008]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"189","amount":"10000"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20109","message":"手机号格式不正确"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.RegisterCase@6ee12bac]" name="test" duration-ms="19" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[recharge_009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"","amount":"1"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20109","message":"手机号格式不正确"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.RegisterCase@6ee12bac]" name="test" duration-ms="13" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[recharge_010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251113","amount":"500000"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20104","message":"该手机号尚未注册为会员"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.autotest.testcase.RegisterCase -->
+    </test> <!-- RegisterTest -->
+    <test name="LoginTest" duration-ms="183" started-at="2020-03-06T03:06:58Z" finished-at="2020-03-06T03:06:59Z">
+      <class name="com.autotest.testcase.LoginCase">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.LoginCase@4de5031f]" name="test" duration-ms="48" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[register_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"${awaitRegisterMobilephone}","pwd":"abc12345","regname":"abc"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"1","code":"10001","message":"成功"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select count(*) from member where mobilephone='18924251771'"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select count(*) from member where mobilephone='18924251771'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.LoginCase@4de5031f]" name="test" duration-ms="26" started-at="2020-03-06T11:06:58Z" data-provider="datas" finished-at="2020-03-06T11:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[register_002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251772","pwd":"abc12345","regname":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"1","code":"10001","message":"成功"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.LoginCase@4de5031f]" name="test" duration-ms="33" started-at="2020-03-06T11:06:59Z" data-provider="datas" finished-at="2020-03-06T11:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[register_003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"1892425","pwd":"abc123","regname":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20109","message":"手机号码格式不正确"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.LoginCase@4de5031f]" name="test" duration-ms="14" started-at="2020-03-06T11:06:59Z" data-provider="datas" finished-at="2020-03-06T11:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[register_004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251773","pwd":"abc12","regname":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20108","message":"密码长度必须为6-18位"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.LoginCase@4de5031f]" name="test" duration-ms="15" started-at="2020-03-06T11:06:59Z" data-provider="datas" finished-at="2020-03-06T11:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[register_005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"","pwd":"abcdefg...","regname":"abcd"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20103","message":"参数不正常或不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.LoginCase@4de5031f]" name="test" duration-ms="13" started-at="2020-03-06T11:06:59Z" data-provider="datas" finished-at="2020-03-06T11:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[register_006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251771","pwd":"","regname":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20103","message":"参数不正常或不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autotest.testcase.LoginCase@4de5031f]" name="test" duration-ms="18" started-at="2020-03-06T11:06:59Z" data-provider="datas" finished-at="2020-03-06T11:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[register_007]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"18924251111","pwd":"1234567890","regname":"xzz"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20110","message":"手机号码已被注册"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="batchWriteBackDatas()[pri:0, instance:com.autotest.testcase.LoginCase@4de5031f]" name="batchWriteBackDatas" is-config="true" duration-ms="224" started-at="2020-03-06T11:06:59Z" finished-at="2020-03-06T11:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchWriteBackDatas -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:com.autotest.testcase.LoginCase@4de5031f]" name="closeResources" is-config="true" duration-ms="0" started-at="2020-03-06T11:06:59Z" finished-at="2020-03-06T11:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+      </class> <!-- com.autotest.testcase.LoginCase -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- FLSutie -->
+</testng-results>

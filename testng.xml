@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="FLSutie">
+    <test name="RechargeTest">
+        <classes>
+            <class name="com.autotest.testcase.RechargeCase"></class>
+        </classes>
+    </test>
+    <test name="RegisterTest">
+        <classes>
+            <class name="com.autotest.testcase.RegisterCase"></class>
+        </classes>
+    </test>
+    <test name="LoginTest">
+        <classes>
+            <class name="com.autotest.testcase.LoginCase"></class>
+        </classes>
+    </test>
+    
+    <listeners>
+    <!-- 测试报告监听器 -->
+        <listener class-name="com.autotest.config.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

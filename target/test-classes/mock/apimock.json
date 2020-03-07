@@ -1,0 +1,420 @@
+[
+  {
+    "description":"post注册成功(带regname)",
+    "request": {
+      "uri":"/fl/mvc/member/register",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18995270001",
+        "pwd":"abc12345",
+		"regname":"abc"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"1",
+        "code":"10001",
+        "message":"成功"
+      }
+    }
+  },
+  {
+    "description":"post注册成功(不带regname)",
+    "request": {
+      "uri":"/fl/mvc/member/register",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18924251772",
+        "pwd":"abc12345"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"1",
+        "code":"10001",
+        "message":"成功"
+      }
+    }
+  },
+  {
+    "description":"post注册失败-手机号码格式不正确",
+    "request": {
+      "uri":"/fl/mvc/member/register",
+      "method":"post",
+      "forms": {
+        "mobilephone":"1892425",
+        "pwd":"abc123"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20109",
+        "message":"手机号码格式不正确"
+      }
+    }
+  },
+  {
+    "description":"post注册失败-密码长度必须为6-18位",
+    "request": {
+      "uri":"/fl/mvc/member/register",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18924251773",
+        "pwd":"abc12"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20108",
+        "message":"密码长度必须为6-18位"
+      }
+    }
+  },
+  {
+    "description":"post注册失败-参数不正常或不能为空",
+    "request": {
+      "uri":"/fl/mvc/member/register",
+      "method":"post",
+      "forms": {
+
+        "pwd":"abcdefg...",
+        "regname":"abcd"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20103",
+        "message":"参数不正常或不能为空"
+      }
+    }
+  },
+  {
+    "description":"post注册失败-参数不正常或不能为空",
+    "request": {
+      "uri":"/fl/mvc/member/register",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18924251771"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20103",
+        "message":"参数不正常或不能为空"
+      }
+    }
+  },
+  {
+    "description":"post注册失败-手机号码已被注册",
+    "request": {
+      "uri":"/fl/mvc/member/register",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18924251111",
+        "pwd":"1234567890",
+        "regname":"xzz"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20110",
+        "message":"手机号码已被注册"
+      }
+    }
+  },
+
+
+  {
+    "description":"post登陆成功",
+    "request": {
+      "uri":"/fl/mvc/member/login",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18924251771",
+        "pwd":"abc12345"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"1",
+        "code":"10001",
+        "message":"成功"
+      },
+      "cookies":{
+      "JSESSIONID":"ABC123ABC123"
+      }
+    }
+  },
+  {
+    "description":"post登陆失败-用户名或者密码错误",
+    "request": {
+      "uri":"/fl/mvc/member/login",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18924251771",
+        "pwd":"abcabcabc"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20111",
+        "message":"用户名或者密码错误"
+      }
+    }
+  },
+  {
+    "description":"post登陆失败-参数不正常或不能为空",
+    "request": {
+      "uri":"/fl/mvc/member/login",
+      "method":"post",
+      "forms": {
+
+        "pwd":"abc1234567"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20103",
+        "message":"参数不正常或不能为空"
+      }
+    }
+  },
+  {
+    "description":"post登陆失败-参数不正常或不能为空",
+    "request": {
+      "uri":"/fl/mvc/member/login",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18924251112"
+
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20103",
+        "message":"参数不正常或不能为空"
+      }
+    }
+  },
+  
+  
+  {
+  	"description":"充值成功",
+    "request": {
+      "uri":"/fl/mvc/member/recharge",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18924251711",
+		"amount":"10000"
+      },
+      "cookies":{
+      "JSESSIONID":"ABC123ABC123"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"1",
+        "code":"10001",
+        "message":"成功"
+      }
+    }
+  },
+  {
+  	"description":"充值失败-输入金额为0",
+    "request": {
+      "uri":"/fl/mvc/member/recharge",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18924251721",
+		"amount":"0"
+      },
+      "cookies":{
+      "JSESSIONID":"ABC123ABC123"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20117",
+        "message":"请输入范围在0-50万之间的正数金额"
+      }
+    }
+  },
+  {
+  	"description":"充值失败-输入金额为大于500000",
+    "request": {
+      "uri":"/fl/mvc/member/recharge",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18924251731",
+		"amount":"500000.11"
+      },
+      "cookies":{
+      "JSESSIONID":"ABC123ABC123"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20117",
+        "message":"请输入范围在0-50万之间的正数金额"
+      }
+    }
+  },
+  {
+  	"description":"充值失败-输入金额为负数",
+    "request": {
+      "uri":"/fl/mvc/member/recharge",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18924251741",
+		"amount":"-8000"
+      },
+      "cookies":{
+      "JSESSIONID":"ABC123ABC123"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20117",
+        "message":"请输入范围在0-50万之间的正数金额"
+      }
+    }
+  },
+  {
+  	"description":"充值失败-不输入金额",
+    "request": {
+      "uri":"/fl/mvc/member/recharge",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18924251751"
+        
+      },
+      "cookies":{
+      "JSESSIONID":"ABC123ABC123"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20115",
+        "message":"请输入金额"
+      }
+    }
+  },
+  {
+  	"description":"充值失败-输入金额为非数字",
+    "request": {
+      "uri":"/fl/mvc/member/recharge",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18924251772",
+        "amount":"abc"
+      },
+      "cookies":{
+      "JSESSIONID":"ABC123ABC123"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20118",
+        "message":"请输入数字"
+      }
+    }
+  },
+  {
+  	"description":"充值失败-输入金额的小数部分不能超过两位",
+    "request": {
+      "uri":"/fl/mvc/member/recharge",
+      "method":"post",
+      "forms": {
+        "mobilephone":"18924251773",
+        "amount":"10000.111"
+      },
+      "cookies":{
+      "JSESSIONID":"ABC123ABC123"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20116",
+        "message":"输入金额的小数部分不能超过两位"
+      }
+    }
+  },
+  {
+  	"description":"充值失败-输入金额的小数部分不能超过两位",
+    "request": {
+      "uri":"/fl/mvc/member/recharge",
+      "method":"post",
+      "forms": {
+		"mobilephone":"189",
+        "amount":"10000"
+      },
+      "cookies":{
+      "JSESSIONID":"ABC123ABC123"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20109",
+        "message":"手机号格式不正确"
+      }
+    }
+  },  
+  {
+  	"description":"充值失败-不输入手机号",
+    "request": {
+      "uri":"/fl/mvc/member/recharge",
+      "method":"post",
+      "forms": {
+
+        "amount":"1"
+      },
+      "cookies":{
+      "JSESSIONID":"ABC123ABC123"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20109",
+        "message":"手机号格式不正确"
+      }
+    }
+  },
+  {
+  	"description":"充值失败-给未注册的手机号充值",
+    "request": {
+      "uri":"/fl/mvc/member/recharge",
+      "method":"post",
+      "forms": {
+		"mobilephone":"18924251113",
+        "amount":"500000"
+      },
+      "cookies":{
+      "JSESSIONID":"ABC123ABC123"
+      }
+    },
+    "response": {
+      "json": {
+        "status":"0",
+        "code":"20104",
+        "message":"该手机号尚未注册为会员"
+      }
+    }
+  }
+  
+]
